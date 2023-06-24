@@ -9,7 +9,7 @@ function* handleFetchEvents(): Generator<any, void, any> {
   try {
     const response = yield call(
       axios.get,
-      "http://www.mocky.io/v2/5e60c5f53300005fcc97bbdd"
+      "https://www.mocky.io/v2/5e60c5f53300005fcc97bbdd"
     );
 
   
